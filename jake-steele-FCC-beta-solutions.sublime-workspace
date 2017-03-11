@@ -1,0 +1,338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\n",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/1-basic-javascript",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/3-front-end-libraries",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/4-data-visualization",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/5-apis-and-microservices",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/6-information-security-and-quality-assurance"
+	],
+	"file_history":
+	[
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-6-build-a-personal-portfolio-webpage/1-7-6-build-a-personal-portfolio-webpage.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-6-build-a-personal-portfolio-webpage/1-7-6-build-a-personal-portfolio-webpage.css",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-5-build-a-technical-documentation-page/1-7-5-build-a-technical-documentation-page.css",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-5-build-a-technical-documentation-page/1-7-5-build-a-technical-documentation-page.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-4-build-a-product-landing-page/1-7-4-build-a-product-landing-page.css",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-4-build-a-product-landing-page/1-7-4-build-a-product-landing-page.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-3-build-a-survey-form/1-7-3-build-a-survey-form.css",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-3-build-a-survey-form/1-7-3-build-a-survey-form.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-2-build-a-tribute-page/1-7-2-build-a-tribute-page.css",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-2-build-a-tribute-page/1-7-2-build-a-tribute-page.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-18-use-the-align-self-property.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-17-use-the-order-property-to-rearrange-items.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-16-use-the-flex-shorthand-property.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-15-use-the-flex-basis-property-to-set-the-initial-size-of-an-item.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-14-use-the-flex-grow-property-to-expand-items.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-13-use-the-flex-shrink-property-to-shrink-items.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-12-use-the-flex-wrap-property-to-wrap-a-row-or-column.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-11-use-the-align-items-property-in-the-tweet-embed.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-10-align-elements-using-the-align-items-property.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-9-use-the-justify-content-property-in-the-tweet-embed.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-8-align-elements-using-the-justify-content-property.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-7-apply-the-flex-direction-property-to-create-a-column-in-the-tweet-embed.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-6-use-the-flex-direction-property-to-make-a-column.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-5-apply-the-flex-direction-property-to-create-rows-in-the-tweet-embed.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-4-use-the-flex-direction-property-to-make-a-row.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-3-add-flex-superpowers-to-the-tweet-embed.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/6-css-flexbox/1-6-2-use-display-flex-to-position-two-boxes.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/5-responsive-web-design-principles/1-5-5-make-typography-responsive.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/5-responsive-web-design-principles/1-5-4-use-a-retina-image-for-higher-resolution-displays.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/5-responsive-web-design-principles/1-5-3-make-an-image-responsive.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/5-responsive-web-design-principles/1-5-2-create-a-media-query.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-23-use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elements.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-22-use-tabindex-to-add-keyboard-focus-to-an-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-21-make-links-navigatable-with-html-access-keys.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-20-give-links-meaning-by-using-descriptive-link-text.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-19-avoid-colorblindness-issues-by-carefully-choosing-colors-that-convey-information.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-18-avoid-colorblindness-issues-by-using-sufficient-contrast.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-17-improve-readability-with-high-contrast-text.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-16-make-elements-only-visible-to-a-screen-reader-by-using-custom-css.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-15-standardize-times-with-the-html5-datetime-attribute.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-14-add-an-accessible-date-picker.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-13-wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-12-improve-form-field-accessibility-with-the-label-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-11-improve-chart-accessibility-with-the-figure-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-10-improve-accessibility-of-audio-content-with-the-audio-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-9-make-screen-reader-navigation-easier-with-the-footer-landmark.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-8-make-screen-reader-navigation-easier-with-the-nav-landmark.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-7-make-screen-reader-navigation-easier-with-the-header-landmark.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-6-wrap-content-in-the-article-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-5-jump-straight-to-the-content-using-the-main-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-4-use-headings-to-show-hierarchial-relationships-of-content.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-3-know-when-alt-text-should-be-left-blank.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/4-applied-accessibility/1-4-2-add-a-text-alternative-to-images-for-visually-impaired-accessibility.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-56-make-motion-more-natural-using-a-bezier-curve.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-55-use-a-bezier-curve-to-move-a-graphic.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-54-learn-how-bezier-curves-work.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-53-change-animation-timing-with-keywords.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-52-animate-multiple-elements-at-variable-rates.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-51-animate-elements-at-variable-rates.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-50-make-a-css-heartbeat-using-an-infinite-animation-count.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-49-animate-elements-continually-using-an-infinite-animation-count.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-48-create-visual-direction-by-fading-an-element-from-left-to-right.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-47-create-movement-using-css-animation.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-46-modify-fill-mode-of-an-animation.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-45-use-css-animation-to-change-the-hover-state-of-a-button.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-44-learn-how-the-css-keyframes-and-animation-properties-work.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-43-create-a-more-complex-shape-using-css-and-html.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-42-create-a-graphic-using-css.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-41-use-the-css-transform-property-skewy-to-skew-an-element-along-the-y-axis.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-40-use-the-css-transform-property-skewx-to-skew-an-element-along-the-x-axis.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-39-use-the-css-transform-scale-property-to-scale-an-element-on-hover.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-38-use-the-css-transform-scale-property-to-change-the-size-of-an-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-37-create-texture-by-adding-a-subtle-pattern-as-a-background-image.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-36-use-a-css-linear-gradient-to-create-a-striped-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-35-create-a-gradual-css-linear-gradient.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-34-adjust-the-tone-of-a-color.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-33-adjust-the-hue-of-a-color.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-32-adjust-the-color-of-various-elements-to-complementary-colors.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-31-learn-about-tertiary-colors.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-30-learn-about-complementary-colors.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-29-center-an-element-horizontally-using-the-margin-property.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-28-change-the-position-of-overlapping-elements-with-the-z-index-property.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-27-push-elements-left-or-right-with-the-float-property.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-26-lock-an-element-to-the-browser-window-with-fixed-positioning.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-25-lock-an-element-to-its-parent-with-absolute-positioning.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-24-move-a-relatively-positioned-element-with-css-offsets.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-23-change-an-elements-relative-position.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-22-adjust-the-hover-state-of-an-anchor-tag.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-21-adjust-the-color-of-an-anchor-tag.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-20-set-the-line-height-of-paragraphs.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-19-set-the-font-size-of-paragraph-text.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-18-set-the-font-weight-for-multiple-heading-elements.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-17-set-the-font-size-for-multiple-heading-elements.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-16-use-a-google-font.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-15-use-the-text-transform-property-to-make-text-uppercase.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-14-decrease-the-opacity-of-an-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-13-add-a-box-shadow-to-a-card-like-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-12-adjust-the-size-of-a-header-versus-a-paragraph-tag.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-11-adjust-the-background-color-property-of-text.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-10-create-a-horizontal-line-using-the-hr-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-9-use-the-del-tag-to-strikethrough-text.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-8-use-the-em-tag-to-italicize-text.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-7-use-the-u-tag-to-underline-text.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-6-use-the-strong-tag-to-make-text-bold.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-5-create-visual-balance-with-the-height-of-an-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-4-adjust-the-height-of-an-element-using-the-height-property.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-3-adjust-the-width-of-an-element-using-the-width-property.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-2-create-visual-balance-using-the-text-align-property.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-36-use-rgb-to-mix-colors.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-35-use-rgb-values-to-color-elements.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-34-use-abbreviated-hex-code.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-33-use-hex-code-to-mix-colors.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-32-use-hex-code-for-specific-colors.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-31-override-all-other-styles-by-using-important.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-30-override-class-declarations-with-inline-styles.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-29-override-class-declarations-by-styling-id-attributes.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-28-override-styles-in-subsequent-css.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-27-prioritize-one-style-over-another.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-26-inherit-styles-from-the-body-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-25-style-the-html-body-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-24-understand-absolute-versus-relative-units.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-23-use-clockwise-notation-to-specify-the-margin-of-an-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-22-use-clockwise-notation-to-specify-the-padding-of-an-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-21-add-different-margins-to-each-side-of-an-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-20-add-different-padding-to-each-side-of-an-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-19-add-a-negative-margin-to-an-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-18-adjust-the-margin-of-an-element.html",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-17-adjust-the-padding-of-an-element.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jake-steele-FCC-beta-solutions.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 595.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

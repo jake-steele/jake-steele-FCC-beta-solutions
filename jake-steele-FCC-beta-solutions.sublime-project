@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": "1-responsive-web-design"
+		},
+		{
+			"path": "2-javascript-algorithms-and-data-structures"
+		},
+		{
+			"path": "3-front-end-libraries"
+		},
+		{
+			"path": "4-data-visualization"
+		},
+		{
+			"path": "5-apis-and-microservices"
+		},
+		{
+			"path": "6-information-security-and-quality-assurance"
+		}
+	]
+}

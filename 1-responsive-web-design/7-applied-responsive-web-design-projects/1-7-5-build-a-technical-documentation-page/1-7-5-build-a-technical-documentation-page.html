@@ -1,0 +1,134 @@
+<html>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <nav id="navbar"><header id="page-title"><h1>Technical Documentation: JavaScript Iterators and Generators</h1></header><a class="nav-link" id="section1" href="#For_More_Details"><h3>For More Details</h3></a><a class="nav-link" href="#Iterators"><h3>Iterators</h3></a><a class="nav-link" href="#Generators"><h3>Generators</h3></a><a class="nav-link" href="#Iterables"><h3>Iterables</h3></a><a class="nav-link" href="#Advanced_Generators"><h3>Advanced Generators</h3></a></nav>
+  <main id="main-doc">
+    <br>
+    <section id="For_More_Details" class="main-section"><header>For More Details</header><p>See also:</p>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators">MDN Iterators and Generators Page</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols">Iteration Protocols</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of">for...of</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*">function*</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator">Generator</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield">yield</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*">yield*</a></li>
+      </ul>
+    </section>
+    <section id="Iterators" class="main-section"><header>Iterators</header><p>An object is an iterator when it knows how to access items from a collection one at a time, while keeping track of its current position within that sequence. In JavaScript an iterator is an object that provides a next() method which returns the next item in the sequence. This method returns an object with two properties: done and value.</p>
+      <p>Once created, an iterator object can be used explicitly by repeatedly calling next().</p>
+      <code><pre>function makeIterator(array) {
+    var nextIndex = 0;
+    
+    return {
+       next: function() {
+           return nextIndex < array.length ?
+            {value: array[nextIndex++], done: false} :
+            {done: true};
+          }
+        };
+      }</pre></code>
+      <p>Once initialized, the next() method can be called to access key-value pairs from the object in turn:</p>
+        <code><pre>var it = makeIterator(['yo', 'ya']);
+console.log(it.next().value); // 'yo'
+console.log(it.next().value); // 'ya'
+console.log(it.next().done);  // true</pre></code>
+    </section>
+    <section id="Generators" class="main-section">
+      <header>Generators</header>
+      <p>While custom iterators are a useful tool, their creation requires careful programming due to the need to explicitly maintain their internal state. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator">Generators</a> provide a powerful alternative: they allow you to define an iterative algorithm by writing a single function which can maintain its own state.</p>
+      <p>A generator is a special type of function that works as a factory for iterators. A function becomes a generator if it contains one or more <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield">yield</a> expressions and if it uses the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*">function*</a> syntax.</p>
+      <code><pre>function* idMaker() {
+  var index = 0;
+  while(true)
+    yield index++;
+}
+
+var gen = idMaker();
+
+console.log(gen.next().value); // 0
+console.log(gen.next().value); // 1
+console.log(gen.next().value); // 2
+// ...</pre></code>
+      </section>
+    <section id="Iterables" class="main-section">
+      <header>Iterables</header>
+      <p>An object is iterable if it defines its iteration behavior, such as what values are looped over in a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of">for..of</a> construct. Some built-in types, such as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map">Map</a>, have a default iteration behavior, while other types (such as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>) do not.</p>
+      <p>In order to be iterable, an object must implement the @@iterator method, meaning that the object (or one of the objects up its <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain">prototype chain</a>) must have a property with a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/iterator">Symbol.iterator</a> key:</p>
+      <h3>User-defined iterables</h3>
+      <p>We can make our own iterables like this:</p>
+      <code><pre>var myIterable = {};
+myIterable[Symbol.iterator] = function* () {
+    yield 1;
+    yield 2;
+    yield 3;
+};
+
+for (let value of myIterable) { 
+    console.log(value); 
+}
+// 1
+// 2
+// 3
+
+or
+
+[...myIterable]; // [1, 2, 3]</pre></code>
+      <h3>Built-in iterables</h3>
+      <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray">TypedArray</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map">Map</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set">Set</a> are all built-in iterables, because the prototype objects of them all have a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/iterator">Symbol.iterator</a> method.</p>
+      <h3>Syntaxes expecting iterables</h3>
+      <p>Some statements and expressions are expecting iterables, for example the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of">for-of</a> loops, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator">spread operator</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*">yield*</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">destructuring assignment</a>.</p>
+      <code><pre>for (let value of ['a', 'b', 'c']) {
+    console.log(value);
+}
+// "a"
+// "b"
+// "c"
+
+[...'abc']; // ["a", "b", "c"]
+
+function* gen() {
+  yield* ['a', 'b', 'c'];
+}
+
+gen().next(); // { value: "a", done: false }
+
+[a, b, c] = new Set(['a', 'b', 'c']);
+a; // "a"</pre></code>
+    </section>
+    <section id="Advanced_Generators" class="main-section">
+      <header>Advanced Generators</header>
+      <p>Generators compute their yielded values on demand, which allows them to efficiently represent sequences that are expensive to compute, or even infinite sequences as demonstrated above.</p>
+      <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/next">next()</a> method also accepts a value which can be used to modify the internal state of the generator. A value passed to next() will be treated as the result of the last yield expression that paused the generator.</p>
+      <p>Here is the fibonacci generator using next(x) to restart the sequence:</p>
+      <code><pre>function* fibonacci() {
+  var fn1 = 0;
+  var fn2 = 1;
+  while (true) {  
+    var current = fn1;
+    fn1 = fn2;
+    fn2 = current + fn1;
+    var reset = yield current;
+    if (reset) {
+        fn1 = 0;
+        fn2 = 1;
+    }
+  }
+}
+
+var sequence = fibonacci();
+console.log(sequence.next().value);     // 0
+console.log(sequence.next().value);     // 1
+console.log(sequence.next().value);     // 1
+console.log(sequence.next().value);     // 2
+console.log(sequence.next().value);     // 3
+console.log(sequence.next().value);     // 5
+console.log(sequence.next().value);     // 8
+console.log(sequence.next(true).value); // 0
+console.log(sequence.next().value);     // 1
+console.log(sequence.next().value);     // 1
+console.log(sequence.next().value);     // 2</pre></code>
+      <p class="note">Note: As a point of interest, calling next(undefined) is equivalent to calling next(). However, starting a newborn generator with any value other than undefined when calling next() will result in a TypeError exception.</p>
+      <p>You can force a generator to throw an exception by calling its <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw">throw()</a> method and passing the exception value it should throw. This exception will be thrown from the current suspended context of the generator, as if the yield that is currently suspended were instead a throw value statement.</p>
+      <p>If a yield is not encountered during the processing of the thrown exception, then the exception will propagate up through the call to throw(), and subsequent calls to next() will result in the done property being true.</p>
+      <p>Generators have a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/return">return(value)</a> method that returns the given value and finishes the generator itself.</p>
+    </section>
+  </main>
+</html>

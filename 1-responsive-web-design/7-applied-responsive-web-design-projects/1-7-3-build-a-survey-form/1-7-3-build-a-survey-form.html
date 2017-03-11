@@ -1,0 +1,44 @@
+<!-- For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message. Thanks! -->
+
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+<html>
+  <body>
+    <header>
+      <h1 id="title">Game Feedback Form</h1>
+    </header>
+    
+    <div id="main">
+      <p id="description"><em>This form is meant to serve as feedback for our game. We would really appreciate it if you took the time to fill out the form and let us know how we're doing! Thank you!</em></p>
+      <br>
+      <form id="feedback-form" action="#" method="post">
+        <fieldset>
+          <legend>Personal Information:</legend>
+          <label id="name-label">Full Name: </label><input type="text" id="name" required placeholder="John Doe"><br>
+          <label id="email-label">Email Address: </label><input type="email" id="email" required placeholder="example@example.com"><br>
+          <label id="number-label">Age: </label><input type="number" min="5" max="110" id="number" placeholder="# of Years"><br>
+          <label id="gender-label">Gender: </label><select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </fieldset><br>
+        <label id="rating-label">Rating of Game Quality: </label><input type="range" size="2" name="rating" min="1" max="10" value="5"><br>
+        <label id="things-to-improve-label">Things you think we should improve on:</label><br>
+        <input type="checkbox" name="improve1" value="Graphics">Graphics<br>
+        <input type="checkbox" name="improve2" value="Gameplay">Gameplay<br>
+        <input type="checkbox" name="improve3" value="Sound">Sound<br>
+        <label id="how-find-game-label">How did you find out about our game?</label><br>
+        <input type="radio" name="how-find-game" value="word-of-mouth" checked>Word of Mouth<br>
+        <input type="radio" name="how-find-game" value="ad-online">Online Ad<br>
+        <input type="radio" name="how-find-game" value="other">Other<br>
+        <label id="comments">Other Comments: </label><br><textarea form="feedback-form">Please type your comments here...</textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+    <footer>
+      <p>&copy; Games Co. LLC - 2017</p>
+    </footer>
+  </body>
+</html>

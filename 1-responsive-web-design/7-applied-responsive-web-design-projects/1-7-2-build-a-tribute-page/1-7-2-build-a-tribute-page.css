@@ -1,0 +1,19 @@
+body {
+  background-color: skyblue;
+}
+#siteBody {
+  margin: 2%;
+  border-radius: 2%;
+  background-color: Linen;
+}
+#lifeEventsList {
+  display: inline-block;
+  float: none;
+  margin: 0px;
+}
+#quoteBox {
+  display: inline;
+}
+#quoteAttr {
+  text-align: right;
+}
