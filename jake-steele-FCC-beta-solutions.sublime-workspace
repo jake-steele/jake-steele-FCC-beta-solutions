@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "\n",
-			"settings":
-			{
-				"buffer_size": 1,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -50,6 +42,8 @@
 	[
 		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures",
 		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/1-basic-javascript",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/6-basic-algorithm-scripting",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting",
 		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/3-front-end-libraries",
 		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/4-data-visualization",
 		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/5-apis-and-microservices",
@@ -57,6 +51,36 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-24-map-the-debris.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-23-make-a-person.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-22-arguments-optional.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-21-everything-be-true.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-20-binary-agents.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-19-steamroller.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-18-drop-it.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-17-smallest-common-multiple.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-16-sum-all-primes.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-15-sum-all-odd-fibonacci-numbers.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-14-convert-html-entities.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-13-sorted-union.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-12-missing-letters.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-11-dna-pairing.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-10-search-and-replace.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-9-pig-latin.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-8-caesars-cipher.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-7-roman-numeral-converter.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-6-spinal-tap-case.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-5-wherefore-art-thou.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-4-seek-and-destroy.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-3-check-for-palindromes.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-2-diff-two-arrays.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/9-intermediate-algorithm-scripting/2-9-1-sum-all-numbers-in-a-range.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/6-basic-algorithm-scripting/2-6-7-confirm-the-ending.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/6-basic-algorithm-scripting/2-6-6-return-largest-numbers-in-arrays.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/6-basic-algorithm-scripting/2-6-5-find-the-longest-word-in-a-string.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/6-basic-algorithm-scripting/2-6-4-factorialize-a-number.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/6-basic-algorithm-scripting/2-6-3-reverse-a-string.js",
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/2-javascript-algorithms-and-data-structures/6-basic-algorithm-scripting/2-6-2-convert-celsius-to-farenheit.js",
 		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-6-build-a-personal-portfolio-webpage/1-7-6-build-a-personal-portfolio-webpage.html",
 		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-6-build-a-personal-portfolio-webpage/1-7-6-build-a-personal-portfolio-webpage.css",
 		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/7-applied-responsive-web-design-projects/1-7-5-build-a-technical-documentation-page/1-7-5-build-a-technical-documentation-page.css",
@@ -154,37 +178,7 @@
 		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-15-use-the-text-transform-property-to-make-text-uppercase.html",
 		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-14-decrease-the-opacity-of-an-element.html",
 		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-13-add-a-box-shadow-to-a-card-like-element.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-12-adjust-the-size-of-a-header-versus-a-paragraph-tag.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-11-adjust-the-background-color-property-of-text.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-10-create-a-horizontal-line-using-the-hr-element.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-9-use-the-del-tag-to-strikethrough-text.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-8-use-the-em-tag-to-italicize-text.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-7-use-the-u-tag-to-underline-text.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-6-use-the-strong-tag-to-make-text-bold.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-5-create-visual-balance-with-the-height-of-an-element.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-4-adjust-the-height-of-an-element-using-the-height-property.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-3-adjust-the-width-of-an-element-using-the-width-property.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-2-create-visual-balance-using-the-text-align-property.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-36-use-rgb-to-mix-colors.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-35-use-rgb-values-to-color-elements.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-34-use-abbreviated-hex-code.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-33-use-hex-code-to-mix-colors.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-32-use-hex-code-for-specific-colors.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-31-override-all-other-styles-by-using-important.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-30-override-class-declarations-with-inline-styles.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-29-override-class-declarations-by-styling-id-attributes.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-28-override-styles-in-subsequent-css.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-27-prioritize-one-style-over-another.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-26-inherit-styles-from-the-body-element.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-25-style-the-html-body-element.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-24-understand-absolute-versus-relative-units.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-23-use-clockwise-notation-to-specify-the-margin-of-an-element.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-22-use-clockwise-notation-to-specify-the-padding-of-an-element.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-21-add-different-margins-to-each-side-of-an-element.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-20-add-different-padding-to-each-side-of-an-element.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-19-add-a-negative-margin-to-an-element.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-18-adjust-the-margin-of-an-element.html",
-		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/2-basic-css/1-2-17-adjust-the-padding-of-an-element.html"
+		"/C/Users/Jake/Documents/GitHub/jake-steele-FCC-beta-solutions/responsive-web-design/3-applied-visual-design/1-3-12-adjust-the-size-of-a-header-versus-a-paragraph-tag.html"
 	],
 	"find":
 	{
@@ -219,37 +213,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
